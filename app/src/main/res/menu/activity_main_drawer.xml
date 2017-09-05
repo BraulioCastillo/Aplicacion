@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Tienda"
+            android:icon="@drawable/logo"
+            android:title="Tienda" />
+        <item
+            android:id="@+id/nav_Categoria"
+            android:icon="@drawable/categorias"
+            android:title="Categoria" />
+        <item
+            android:id="@+id/nav_Compania"
+            android:icon="@drawable/empresa"
+            android:title="Compañía" />
+        <item
+            android:id="@+id/nav_Contacto"
+            android:icon="@drawable/contacto"
+            android:title="Contacto" />
+        <item
+            android:id="@+id/nav_InicioSesion"
+            android:icon="@drawable/inicio"
+            android:title="Iniciar sesión" />
+        <item
+            android:id="@+id/nav_Registrarse"
+            android:icon="@drawable/registro"
+            android:title="Registrarse" />
+    </group>
+
+</menu>
